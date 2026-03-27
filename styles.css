@@ -4,7 +4,6 @@ table, th, td {
 }
 .left {
     float: left;
-    margin: 15px;
 }
 ol {
     margin: 15px;
@@ -28,4 +27,7 @@ img {
 }
 .right {
     float: right;
+}
+.thingy {
+    line-height: 0.9;
 }
