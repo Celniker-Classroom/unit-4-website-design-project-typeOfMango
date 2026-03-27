@@ -1,1 +1,31 @@
 /* Add Global styles here */
+table, th, td {
+        border: 1px solid black;
+}
+.left {
+    float: left;
+    margin: 15px;
+}
+ol {
+    margin: 15px;
+}
+p {
+    font-size: 20px;
+}
+body {
+    background-color: antiquewhite;
+}
+img {
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 6.7px;
+    margin: 15px;
+    width: 20%
+}
+.Link {
+    color:black;
+}
+.right {
+    float: right;
+}
