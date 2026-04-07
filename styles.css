@@ -38,11 +38,12 @@ img {
     float: right;
 }
 .thingy {
+    font-family: monospace;
     line-height: 0.9;
 }
 
 #chiiiicken {
-    position: sticky; top: 90px;
+    position: sticky; top: 60px;
     border-radius: 15px;
     margin: 50px;
     padding: 5px;
