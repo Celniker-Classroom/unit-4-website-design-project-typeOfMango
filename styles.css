@@ -13,9 +13,17 @@ h1 {
 }
 ol {
     margin: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+ol img {
+    width: auto;
 }
 p {
     font-size: 20px;
+    padding: 15px;
 }
 body {
     background-color: antiquewhite;
@@ -49,7 +57,7 @@ img {
 }
 
 #chiiiicken {
-    position: sticky; top: 60px;
+    position: sticky; top: 65px;
     border-radius: 15px;
     margin: 1%;
     padding: 5px;
@@ -95,4 +103,6 @@ nav li {
 
 #pizzaData {
     background-color: skyblue;
+        padding: 15px;
+
 }
