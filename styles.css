@@ -107,10 +107,26 @@ nav li {
 
 #primary {
     background-color: rgb(203, 255, 203);
+    margin: 5px;
 }
 
 #pizzaData {
     background-color: skyblue;
-        padding: 15px;
+    padding: 15px;
+    margin: 5px;
+
+}
+
+#piDayPicture {
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border-style: hidden;
+}
+
+#piDay {
+    background-color: orange;
+    padding: 15px;
+    margin: 5px;
 
 }
