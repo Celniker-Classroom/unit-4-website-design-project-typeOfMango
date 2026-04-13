@@ -130,3 +130,7 @@ nav li {
     margin: 5px;
 
 }
+
+#more {
+    display: none;
+}
