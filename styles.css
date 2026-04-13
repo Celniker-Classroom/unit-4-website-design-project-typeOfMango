@@ -5,11 +5,19 @@ table, th, td {
     margin: 15px;
     padding: 6px;
 }
-.left {
+.papple {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#papple-left {
     float: left;
 }
+
 h1 {
     text-align: center;
+    
 }
 ol {
     margin: 15px;
