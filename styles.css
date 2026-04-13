@@ -89,6 +89,7 @@ nav ul {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav a {
     color: black;
@@ -133,4 +134,14 @@ nav li {
 
 #more {
     display: none;
+}
+
+#myBtn {
+    display: inline;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+#firsth1 {
+    padding: 70px;
 }
