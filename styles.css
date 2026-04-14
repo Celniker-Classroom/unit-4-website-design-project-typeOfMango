@@ -145,3 +145,23 @@ nav li {
 #firsth1 {
     padding: 70px;
 }
+
+#animContain {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: white;
+}
+
+#animation {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: red;
+}
+
+#completelyNormalPicture {
+    border-style: none;
+    border-color: brown;
+    border-radius: 0%;
+}

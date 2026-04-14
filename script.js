@@ -1,5 +1,5 @@
 // add javascript here
-function myFunction(){
+function showMore(){
     let dots = document.getElementById("dots");
     let moreText  = document.getElementById("more");
     let btnText = document.getElementById("myBtn");
@@ -12,5 +12,23 @@ function myFunction(){
         dots.style.display = "none";
         btnText.innerHTML = "Show less";
         moreText.style.display = "inline";
+    }
+}
+
+let id = null;
+function Animate() {
+    let elem = document.getElementById("animation");
+    let pos = 0;
+    clearInterval(id);
+    id = setInterval(frame, 10);
+    function frame() {
+        if(pos > 349){
+            clearInterval(id);
+        }
+        else{
+            pos+=4;
+            elem.style.top = pos + 'px';
+            elem.style.left = pos + 'px';
+        }
     }
 }
