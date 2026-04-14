@@ -151,17 +151,21 @@ nav li {
     height: 400px;
     position: relative;
     background: white;
+    border-color: black;
+    border-radius: 1px;
 }
 
 #animation {
     width: 100px;
     height: 100px;
     position: absolute;
-    background: red;
+    background: none;
 }
 
 #completelyNormalPicture {
-    border-style: none;
-    border-color: brown;
-    border-radius: 0%;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    margin: 0px;
+    padding: 0px;
 }
