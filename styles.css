@@ -171,9 +171,9 @@ nav li {
 }
 
 .buttonLoad {
-    background-color: none;
-    border: none;
+    background-color: antiquewhite;
+    border: white;
     color: black;
     padding: 12px 16px;
-    font-size: 36px;
+    font-size: 40px;
 }
