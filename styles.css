@@ -147,10 +147,10 @@ nav li {
 }
 
 #animContain {
-    width: 400px;
-    height: 400px;
+    width: 1px;
+    height: 1px;
     position: relative;
-    background: white;
+    background: none;
     border-color: black;
     border-radius: 1px;
 }
@@ -168,4 +168,12 @@ nav li {
     border-color: black;
     margin: 0px;
     padding: 0px;
+}
+
+.buttonLoad {
+    background-color: none;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 36px;
 }
