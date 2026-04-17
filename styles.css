@@ -24,7 +24,6 @@ ol {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 ol img {
     width: auto;
@@ -48,7 +47,6 @@ img {
     border-style: dotted;
     border-radius: 6.7px;
     margin: 15px;
-    width: 20%
 }
 
 .paragraf {
@@ -190,4 +188,6 @@ nav li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
+
