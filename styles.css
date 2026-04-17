@@ -22,7 +22,7 @@ h1 {
 ol {
     margin: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 
 }
@@ -55,7 +55,6 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .Link {
@@ -181,4 +180,14 @@ nav li {
     color: black;
     padding: 12px 16px;
     font-size: 40px;
+}
+
+.cfish {
+    text-decoration: underline;
+}
+
+.pizzas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
