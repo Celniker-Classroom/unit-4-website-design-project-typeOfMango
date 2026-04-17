@@ -188,6 +188,11 @@ nav li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    justify-content: flex-start;
+    width: 100%;
 }
 
+.pizzas img {
+    width: auto;
+    height: 250px;
+}
