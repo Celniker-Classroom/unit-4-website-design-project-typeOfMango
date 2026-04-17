@@ -22,7 +22,7 @@ h1 {
 ol {
     margin: 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 ol img {
@@ -49,10 +49,13 @@ img {
     margin: 15px;
 }
 
-.paragraf {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+#topPart {
+    display: inline;
+    
+}
+
+#topPart img {
+    width: 400px;
 }
 
 .Link {
@@ -131,13 +134,12 @@ nav li {
     background-color: orange;
     padding: 15px;
     margin: 5px;
-
 }
 
 #more {
     display: none;
 }
-
+`
 #myBtn {
     display: inline;
     margin-left: 20px;
@@ -196,3 +198,4 @@ nav li {
     width: auto;
     height: 250px;
 }
+
