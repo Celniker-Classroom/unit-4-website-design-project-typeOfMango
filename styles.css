@@ -15,9 +15,12 @@ table, th, td {
     float: left;
 }
 
+.left {
+    float: left;
+}
+
 h1 {
     text-align: center;
-    
 }
 ol {
     margin: 15px;
@@ -196,6 +199,6 @@ nav li {
 
 .pizzas img {
     width: auto;
-    height: 250px;
+    height: 300px;
 }
 
