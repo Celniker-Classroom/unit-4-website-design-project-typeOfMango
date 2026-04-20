@@ -17,6 +17,7 @@ table, th, td {
 
 .left {
     float: left;
+    clear: left;
 }
 
 h1 {
@@ -203,15 +204,14 @@ nav li {
 }
 
 #makeSausage {
-    float: right;
-    clear: left;
+    display: block;
     margin-left: 5px;
 }
 
 #sausageImages {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    width: 150px;
-    height: auto;
+    width: 100%;
 }
