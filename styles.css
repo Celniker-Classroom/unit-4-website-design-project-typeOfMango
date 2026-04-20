@@ -144,7 +144,7 @@ nav li {
     display: none;
 }
 `
-#myBtn {
+.myBtn {
     display: inline;
     margin-left: 20px;
     margin-top: 2px;

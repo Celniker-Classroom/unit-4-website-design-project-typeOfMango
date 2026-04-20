@@ -1,8 +1,8 @@
 // add javascript here
 function showMore(){
-    let dots = document.getElementById("dots");
-    let moreText  = document.getElementById("more");
-    let btnText = document.getElementById("myBtn");
+    let dots = document.getElementsByClassName("dots");
+    let moreText  = document.getElementsByClassName("more");
+    let btnText = document.getElementsByClassName("myBtn");
     if(dots.style.display === "none"){
         dots.style.display = "inline";
         btnText.innerHTML = "Show more";
@@ -11,21 +11,6 @@ function showMore(){
     else{
         dots.style.display = "none";
         btnText.innerHTML = "Show less";
-        moreText.style.display = "inline";
-    }
-}
-function showEvenMore(){
-    let dots = document.getElementById("Dots");
-    let moreText = document.getElementById("More");
-    let btnText = document.getElementById("showEvenMore");
-    if(dots.style.display === "none"){
-        dots.style.display = "inline";
-        btnText.innerHTML = "Show More";
-        moreText.style.display = "none";
-    }
-    else{
-        dots.style.display = "none";
-        btnText.innerHTML = "show less";
         moreText.style.display = "inline";
     }
 }
