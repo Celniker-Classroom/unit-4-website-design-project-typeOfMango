@@ -204,7 +204,8 @@ nav li {
 }
 
 #makeSausage {
-    display: block;
+    float: left;
+    clear: both;
     margin-left: 5px;
 }
 
