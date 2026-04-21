@@ -5,21 +5,23 @@ table, th, td {
     margin: 15px;
     padding: 6px;
 }
-.papple {
+#papple {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
 }
-
+#papple img {
+    width: auto;
+    height: 200px;
+}
 #papple-left {
     float: left;
 }
-
 .left {
     float: left;
     clear: left;
 }
-
 h1 {
     text-align: center;
 }
@@ -52,16 +54,12 @@ img {
     border-radius: 6.7px;
     margin: 15px;
 }
-
 #topPart {
     display: inline;
-    
 }
-
 #topPart img {
     width: 400px;
 }
-
 .Link {
     color:black;
     text-decoration: none;
@@ -71,7 +69,6 @@ img {
     font-family: monospace;
     line-height: 0.9;
 }
-
 #chiiiicken {
     position: sticky; top: 65px;
     float: right;
@@ -82,16 +79,13 @@ img {
     border-color: red;
     width: 15%;
 }
-
 ol {
     font-size: 20px;
 }
-
 nav {
     position: sticky; top: 0px;
     font-size: 24px;
 }
-
 nav ul {
     list-style-type: none;
     background-color: rgb(255, 111, 255);
@@ -114,46 +108,37 @@ nav a:hover {
 nav li {
     float: left;
 }
-
 #primary {
     background-color: rgb(203, 255, 203);
     margin: 5px;
 }
-
 #pizzaData {
     background-color: skyblue;
     padding: 15px;
     margin: 5px;
-
 }
-
 #piDayPicture {
     float: right;
     padding: 5px;
     margin: 5px;
     border-style: hidden;
 }
-
 #piDay {
     background-color: orange;
     padding: 15px;
     margin: 5px;
 }
-
 #more {
     display: none;
 }
-
 .myBtn {
     display: inline;
     margin-left: 20px;
     margin-top: 2px;
 }
-
 #firsth1 {
     padding: 70px;
 }
-
 #animContain {
     width: 1px;
     height: 1px;
@@ -162,14 +147,12 @@ nav li {
     border-color: black;
     border-radius: 1px;
 }
-
 #animation {
     width: 100px;
     height: 100px;
     position: absolute;
     background: none;
 }
-
 #completelyNormalPicture {
     border-style: solid;
     border-radius: 1px;
@@ -177,7 +160,6 @@ nav li {
     margin: 0px;
     padding: 0px;
 }
-
 .buttonLoad {
     background-color: antiquewhite;
     border: white;
@@ -185,11 +167,9 @@ nav li {
     padding: 12px 16px;
     font-size: 40px;
 }
-
 .cfish {
     text-decoration: underline;
 }
-
 .pizzas {
     display: flex;
     flex-direction: row;
@@ -197,18 +177,15 @@ nav li {
     justify-content: flex-start;
     width: 100%;
 }
-
 .pizzas img {
     width: auto;
-    height: 300px;
+    height: 200px;
 }
-
 #makeSausage {
     float: left;
     clear: both;
     margin-left: 5px;
 }
-
 #sausageImages {
     display: flex;
     flex-direction: row;
@@ -216,7 +193,10 @@ nav li {
     flex-wrap: wrap;
     width: 100%;
 }
-
+#sausageImages img {
+    width: auto;
+    height: 200px;
+}
 #Image {
     border-style: none;
     display: block;
@@ -224,7 +204,6 @@ nav li {
     padding: 0px;
     height: 300px;
 }
-
 #Loaading {
     font-size: 20px;
 }

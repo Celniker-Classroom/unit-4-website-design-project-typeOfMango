@@ -1,8 +1,8 @@
 // add javascript here
 function showMore(){
-    let dots = document.getElementsByClassName("dots");
-    let moreText  = document.getElementsByClassName("more");
-    let btnText = document.getElementsByClassName("myBtn");
+    let dots = document.getElementById("dots");
+    let moreText  = document.getElementById("more");
+    let btnText = document.getElementById("myBtn");
     if(dots.style.display === "none"){
         dots.style.display = "inline";
         btnText.innerHTML = "Show more";
